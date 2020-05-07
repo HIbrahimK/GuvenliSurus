@@ -1,0 +1,22 @@
+Yapýlacaklar ve Yapýlanlar Yazýlacak
+Yapýlanlar :
+1. Yeni Python projesi baþlatýldý.
+2. Bu proje Ýçin Yeni bir Python Ortamý oluþturuldu. TÜm iþlemler Bu ortamda yapýlacak.
+3. Github'a proje eklendi.Bu sayede daha düzenli bir proje yönetimi yapýlmasý hedeflenmektedir.
+4.
+
+
+
+Yapýlacaklar:
+1. VS 2019'da yapýlacaklar kýsmýný daha etkin nasýl kullanýlabilir araþtýrýlacak
+2. Güvenli sürüþ projesi için gerekli kütüphaneler yüklenecek
+3.
+
+
+
+Kaynaklar:
+Buraya incelenecek veya incelenmiþ kaynaklar eklenecek.
+1. http://vision.fe.uni-lj.si/cvww2016/proceedings/papers/05.pdf 
+Göz kapanmasýný tespit etmenin matematiðini anlatan bir araþtýrma
+2. https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/ 
+Buradaki tutoriale göre projemizin ilk etabýný þekillendireceðiz
