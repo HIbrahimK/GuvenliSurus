@@ -1,3 +1,5 @@
+#Bu dosya sadece bilgi amaçlıdır kullanımamaktadır
+
 import cv2
 import sys
 
