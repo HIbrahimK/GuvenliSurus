@@ -11,7 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>GuvenliSurus</Name>
     <RootNamespace>GuvenliSurus</RootNamespace>
-    <InterpreterId>MSBuild|guvenliSurus|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|env</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="detect_blinks.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GuvenliSurus.py" />
     <Compile Include="kameraAc.py">
       <SubType>Code</SubType>
@@ -46,10 +50,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\haarcascade_frontalface_default.xml" />
+    <Content Include="data\shape_predictor_68_face_landmarks.dat" />
     <Content Include="Yapilacaklar.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|env" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
